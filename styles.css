@@ -1,4 +1,40 @@
 .element{
     display: grid;
+    grid-template-columns: repeat(18, 80px);
+    grid-template-rows: repeat(7, 80px);
 }
+.item{
+    border: 1px solid rgb(18, 16, 16);
+    background-color: white;
+}
+.item1 {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.item2 {
+    grid-column: 18;
+    grid-row: 1; 
+}
+.item3{grid-column: 1;grid-row: 2;}
+.item5{grid-column: 2;grid-row: 2;}
+.item6{grid-column: 13;grid-row: 2;}
+.item7{grid-column: 14;grid-row: 2;}
+.item8{grid-column: 15;grid-row: 2;}
+.item9{grid-column: 16;grid-row: 2;}
+.item10{grid-column: 17;grid-row: 2;}
+.item11{grid-column: 18;grid-row: 2;}
+
+.item12{grid-column: 1;grid-row: 3;}
+.item13{grid-column: 2;grid-row: 3;}
+.item14{grid-column: 13;grid-row: 3;}
+.item15{grid-column: 14;grid-row: 3;}
+.item16{grid-column: 15;grid-row: 3;}
+.item17{grid-column: 16;grid-row: 3;}
+.item18{grid-column: 17;grid-row: 3;}
+.item19{grid-column: 18;grid-row: 3;}
+/* .item20{grid-column: 17;grid-row: 2;}
+.item21{grid-column: 18;grid-row: 2;} */
+
+
 
