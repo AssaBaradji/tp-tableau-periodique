@@ -1,11 +1,49 @@
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    
+
+}
+h2 {
+    text-align: center;
+    font-size: 45px;
+    border: 3px solid #ea88c1;
+    height: 80px;
+    box-shadow: 20px 15px 15px rgb(255, 203, 212);
+    margin-right: 0;
+    width: 80%;
+    border-radius: 15px;
+    
+
+    
+}
+.contenair{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
 .element{
     display: grid;
-    grid-template-columns: repeat(18, 80px);
+    grid-template-columns: repeat(18, 1fr);
     grid-template-rows: repeat(7, 80px);
+    margin-top: 100px ;  
+    box-shadow: 20px 15px 15px rgb(255, 203, 212);
+    width: 80%;
+    border-radius: 15px;
+    
 }
 .item{
-    border: 1px solid rgb(18, 16, 16);
-    background-color: white;
+    font-family: 'Courier New', Courier, monospace;
+    border: 1px solid #CCC;
+    align-content: center;
+    text-align: center;
+    font-weight: 800;
+
+
 }
 .item1 {
     grid-column: 1;
@@ -15,6 +53,11 @@
 .item2 {
     grid-column: 18;
     grid-row: 1; 
+}
+.item:hover{
+    cursor: pointer;
+    background-color: rgba(189, 14, 14, 0.37);
+    color: white;
 }
 .item3{grid-column: 1;grid-row: 2;}
 .item5{grid-column: 2;grid-row: 2;}
@@ -33,8 +76,82 @@
 .item17{grid-column: 16;grid-row: 3;}
 .item18{grid-column: 17;grid-row: 3;}
 .item19{grid-column: 18;grid-row: 3;}
-/* .item20{grid-column: 17;grid-row: 2;}
-.item21{grid-column: 18;grid-row: 2;} */
+
+.item20{grid-column: 1;grid-row: 4;}
+.item21{grid-column: 2;grid-row: 4;}
+.item22{grid-column: 3;grid-row: 4;}
+.item23{grid-column: 4;grid-row: 4;}
+.item24{grid-column: 5;grid-row: 4;}
+.item25{grid-column: 6;grid-row: 4;}
+.item26{grid-column: 7;grid-row: 4;}
+.item27{grid-column: 8;grid-row: 4;}
+.item28{grid-column: 9;grid-row: 4;}
+.item29{grid-column: 10;grid-row: 4;}
+.item30{grid-column: 11;grid-row: 4;}
+.item31{grid-column: 12;grid-row: 4;}
+.item32{grid-column: 13;grid-row: 4;}
+.item33{grid-column: 14;grid-row: 4;}
+.item34{grid-column: 15;grid-row: 4;}
+.item35{grid-column: 16;grid-row: 4;}
+.item36{grid-column: 17;grid-row: 4;}
+.item37{grid-column: 18;grid-row: 4;}
+
+.item38{grid-column: 1;grid-row: 5;}
+.item39{grid-column: 2;grid-row: 5;}
+.item40{grid-column: 3;grid-row: 5;}
+.item41{grid-column: 4;grid-row: 5;}
+.item42{grid-column: 5;grid-row: 5;}
+.item43{grid-column: 6;grid-row: 5;}
+.item44{grid-column: 7;grid-row: 5;}
+.item45{grid-column: 8;grid-row: 5;}
+.item46{grid-column: 9;grid-row: 5;}
+.item47{grid-column: 10;grid-row: 5;}
+.item48{grid-column: 11;grid-row: 5;}
+.item49{grid-column: 12;grid-row: 5;}
+.item50{grid-column: 13;grid-row: 5;}
+.item51{grid-column: 14;grid-row: 5;}
+.item52{grid-column: 15;grid-row: 5;}
+.item53{grid-column: 16;grid-row: 5;}
+.item54{grid-column: 17;grid-row: 5;}
+.item55{grid-column: 18;grid-row: 5;}
+
+.item56{grid-column: 1;grid-row: 6;}
+.item57{grid-column: 2;grid-row: 6;}
+.item58{grid-column: 3;grid-row: 6;}
+.item59{grid-column: 4;grid-row: 6;}
+.item60{grid-column: 5;grid-row: 6;}
+.item61{grid-column: 6;grid-row: 6;}
+.item62{grid-column: 7;grid-row: 6;}
+.item63{grid-column: 8;grid-row: 6;}
+.item64{grid-column: 9;grid-row: 6;}
+.item65{grid-column: 10;grid-row:6;}
+.item66{grid-column: 11;grid-row: 6;}
+.item67{grid-column: 12;grid-row: 6;}
+.item68{grid-column: 13;grid-row: 6;}
+.item69{grid-column: 14;grid-row: 6;}
+.item70{grid-column: 15;grid-row: 6;}
+.item71{grid-column: 16;grid-row: 6;}
+.item72{grid-column: 17;grid-row: 6;}
+.item73{grid-column: 18;grid-row: 6;}
+
+.item74{grid-column: 1;grid-row: 7;}
+.item75{grid-column: 2;grid-row: 7;}
+.item76{grid-column: 3;grid-row: 7;}
+.item77{grid-column: 4;grid-row: 7;}
+.item78{grid-column: 5;grid-row: 7;}
+.item79{grid-column: 6;grid-row: 7;}
+.item80{grid-column: 7;grid-row: 7;}
+.item81{grid-column: 8;grid-row: 7;}
+.item82{grid-column: 9;grid-row: 7;}
+.item83{grid-column: 10;grid-row:7;}
+.item84{grid-column: 11;grid-row: 7;}
+.item85{grid-column: 12;grid-row: 7;}
+.item86{grid-column: 13;grid-row: 7;}
+.item87{grid-column: 14;grid-row: 7;}
+.item88{grid-column: 15;grid-row: 7;}
+.item89{grid-column: 16;grid-row: 7;}
+.item90{grid-column: 17;grid-row: 7;}
+.item91{grid-column: 18;grid-row: 7;}
 
 
 
